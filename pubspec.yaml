@@ -43,6 +43,7 @@ dev_dependencies:
   convex_bottom_bar: ^3.2.0
   intl: ^0.20.2
   hijri: ^3.0.0
+  http: ^1.4.0
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
