@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:islamicapp/screens/introduction-screen.dart';
+// import 'package:shared_preferences/shared_preferences.dart';
 
 class Splashscreen extends StatefulWidget {
   const Splashscreen({super.key});
@@ -9,6 +10,7 @@ class Splashscreen extends StatefulWidget {
 }
 
 class _SplashscreenState extends State<Splashscreen> {
+  
   @override
   void initState() {
     super.initState();

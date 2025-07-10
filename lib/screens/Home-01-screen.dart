@@ -158,10 +158,12 @@ class _Home01screenState extends State<Home01screen> {
                                   Text(
                                     aya.arText ?? '',
                                     style: TextStyle(color: Colors.black),
+                                    textAlign: TextAlign.center,
                                   ),
                                   Text(
                                     snapshot.data!.enTran ?? '',
                                     style: TextStyle(color: Colors.black),
+                                    
                                   ),
                                   RichText(
                                     text: TextSpan(children: <InlineSpan>[
@@ -169,13 +171,13 @@ class _Home01screenState extends State<Home01screen> {
                                           child: Padding(
                                         padding: const EdgeInsets.all(8.0),
                                         child: Text(
-                                            snapshot.data!.surNumber?.toString() ?? ''),
+                                            snapshot.data!.surNumber?.toString() ?? '',  style: TextStyle(fontSize: 14),),
                                       )),
                                       WidgetSpan(
                                           child: Padding(
                                         padding: const EdgeInsets.all(8.0),
                                         child:
-                                            Text(snapshot.data!.surEnName?.toString() ?? ''),
+                                            Text(snapshot.data!.surEnName?.toString() ?? '', style: TextStyle(fontSize: 14),),
                                       )),
                                     ]),
                                   ),
